@@ -69,8 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="wrapper">
         <div class="container-fluid">
-            <h2 class="mt-5">Create Record</h2>
-            <p>Please fill this form to add a new md_ccmhf.</p>
+            <h2 class="mt-5">Add New md_ccmhf</h2>
+            <!-- <p>Please fill this form to add a new md_ccmhf.</p> -->
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <div class="form-group">
                     <label>Name</label>
