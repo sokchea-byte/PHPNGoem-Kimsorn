@@ -17,7 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $address = $input_address;
     }
-
     $input_salary = trim($_POST["salary"]);
     if (empty($input_salary)) {
         $salary_err = "Please enter the salary.";
